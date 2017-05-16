@@ -1,0 +1,13 @@
+<div class="mdp-navbar" *ngIf="isAuthenticated()">
+  <md-nav-list>
+    <md-list-item *ngFor="let navLink of navigationLinks" (click)="onClickNavItem(navLink.link)">
+      <md-icon md-list-icon>{{navLink.icon}}</md-icon>
+      <span md-line>{{navLink.label}}</span>
+    </md-list-item>
+    <md-divider></md-divider>
+    <md-list-item (click)="onSignOutClicked($event)">
+      <md-icon md-list-icon>exit_to_app</md-icon>
+      <span md-line>Sign Out</span>
+    </md-list-item>
+  </md-nav-list>
+</div>

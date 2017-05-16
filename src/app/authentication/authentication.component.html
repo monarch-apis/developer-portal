@@ -1,0 +1,26 @@
+
+<form class="mdp-form-signin" (ngSubmit)="onSignInClicked()">
+  <h1>Developer Sign In</h1>
+  <md-input-container>
+    <input mdInput type="text"
+           id="inputUsername"
+           name="username"
+           placeholder="Username"
+           required
+           autofocus
+           [disabled]="isFormDisabled"
+           [(ngModel)]="username">
+  </md-input-container>
+  <md-input-container>
+    <input mdInput type="password"
+           id="inputPassword"
+           name="password"
+           placeholder="Password"
+           required
+           [disabled]="isFormDisabled"
+           [(ngModel)]="password">
+  </md-input-container>
+  <button md-raised-button color="primary" type="submit" [disabled]="isFormDisabled">Sign In</button>
+</form>
+<div id="monarch-logo"></div>
+

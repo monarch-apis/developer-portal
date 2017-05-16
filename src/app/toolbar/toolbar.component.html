@@ -1,0 +1,18 @@
+<div class="mdp-menubar" *ngIf="isAuthenticated()">
+  <md-toolbar color="primary">
+      <span></span>
+      <span class="mdp-toolbar-spacer"></span>
+      <span>
+        <button md-icon-button (click)="onSignOutClicked($event)">
+          <md-icon>search</md-icon>
+        </button>
+        <button md-icon-button (click)="onSignOutClicked($event)">
+          <md-icon>account_box</md-icon>
+        </button>
+        <button md-icon-button (click)="onSignOutClicked($event)">
+          <md-icon>exit_to_app</md-icon>
+        </button>
+      </span>
+  </md-toolbar>
+</div>
+

@@ -8,6 +8,7 @@
 /dist
 /tmp
 /out-tsc
+/src/main/resources/static/*
 
 # dependencies
 /node_modules

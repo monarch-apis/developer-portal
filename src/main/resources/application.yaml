@@ -1,0 +1,6 @@
+
+monarch:
+  url:              http://localhost:8000
+  environmentName:  local
+  providerKey:      m3Kg8MPaRvIXw9g5uSKt5Ci6
+  sharedSecret:     1Q3YmLzeZwpDkhIMx009FmlT

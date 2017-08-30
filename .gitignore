@@ -32,6 +32,7 @@
 *.iws
 *.iml
 *.ipr
+/out
 
 # misc
 /.sass-cache

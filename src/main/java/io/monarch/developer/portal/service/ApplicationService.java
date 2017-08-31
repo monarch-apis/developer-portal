@@ -27,7 +27,7 @@ public class ApplicationService {
     applications[1].setApplicationUrl("https://employees.example.com");
     applications[1].setApplicationImageUrl("https://employees.example.com/img/logo.jpg");
 
-    applications[2] = new Application("1001", "Timecard Manager", DeveloperRole.OPERATOR, new Date());
+    applications[2] = new Application("1002", "Timecard Manager", DeveloperRole.OPERATOR, new Date());
     applications[2].setDescription("The ultimate timecard management application");
     applications[2].setApplicationUrl("https://time.example.com");
     applications[2].setApplicationImageUrl("https://time.example.com/img/logo.jpg");

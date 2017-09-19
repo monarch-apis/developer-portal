@@ -1,4 +1,8 @@
 
+spring:
+  jackson:
+    date-format:    com.fasterxml.jackson.databind.util.ISO8601DateFormat
+
 monarch:
   url:              http://localhost:8000
   environmentName:  local

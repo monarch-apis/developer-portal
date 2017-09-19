@@ -6,6 +6,7 @@ import { RouterModule } from "@angular/router";
 
 import { UserService } from "./shared/user.service";
 import { AuthenticationGuardService } from "./shared/authentication-guard.service";
+import { ApplicationService } from './applications/application.service';
 
 import { AppComponent } from './app.component';
 import { ToolBarComponent } from "./toolbar/toolbar.component";
@@ -40,7 +41,8 @@ import { ApplicationListComponent } from "./applications/application-list.compon
   ],
   providers: [
     UserService,
-    AuthenticationGuardService
+    AuthenticationGuardService,
+    ApplicationService
   ],
   bootstrap: [
     AppComponent

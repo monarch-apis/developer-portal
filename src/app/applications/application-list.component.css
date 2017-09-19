@@ -3,3 +3,14 @@
   width: 90%;
 }
 
+.tag {
+  margin-top: 10px;
+}
+
+.tag span {
+  background-color: #777;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 11px;
+}

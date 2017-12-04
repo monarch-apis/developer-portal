@@ -1,0 +1,4 @@
+
+portal:
+  repository:
+    developer: io.monarch.developer.portal.mock.repository.MockDeveloperRepository

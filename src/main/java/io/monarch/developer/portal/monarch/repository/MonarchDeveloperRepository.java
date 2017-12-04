@@ -1,4 +1,4 @@
-package io.monarch.developer.portal.repository;
+package io.monarch.developer.portal.monarch.repository;
 
 import com.monarchapis.api.exception.ApiErrorException;
 import com.monarchapis.api.v1.client.ManagementApi;
@@ -6,10 +6,9 @@ import com.monarchapis.api.v1.model.Authentication;
 import com.monarchapis.api.v1.model.Developer;
 import io.monarch.developer.portal.ex.AuthenticationRuntimeException;
 import io.monarch.developer.portal.model.User;
+import io.monarch.developer.portal.repository.DeveloperRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public class MonarchDeveloperRepository implements DeveloperRepository {
 
   @Autowired

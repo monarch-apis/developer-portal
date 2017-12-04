@@ -1,10 +1,15 @@
 
-spring:
-  jackson:
-    date-format:    com.fasterxml.jackson.databind.util.ISO8601DateFormat
-
 monarch:
   url:              http://localhost:8000
   environmentName:  local
   providerKey:      m3Kg8MPaRvIXw9g5uSKt5Ci6
   sharedSecret:     1Q3YmLzeZwpDkhIMx009FmlT
+
+portal:
+  repository:
+    developer: io.monarch.developer.portal.monarch.repository.MonarchDeveloperRepository
+
+spring:
+  jackson:
+    date-format:    com.fasterxml.jackson.databind.util.ISO8601DateFormat
+
